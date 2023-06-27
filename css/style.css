@@ -5,6 +5,13 @@
 * License: https://templatemag.com/license/
 */
 
+img {
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+}
+
+
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
