@@ -41,6 +41,7 @@ order: 4
 - speakerdeck: [ringa_hyj](https://speakerdeck.com/ringa_hyj)
 - kaggle: [Ringa_hyj](https://www.kaggle.com/hiroshihiroshi)
 - connpass: [Ringa_hyj](https://connpass.com/user/mf16069yoshimura/)
+- backup: [netlify](https://app.netlify.com/teams/amazongodman/sites)
 
 
 ## 🎯 このブログについて
@@ -52,4 +53,4 @@ order: 4
 - エンジニアとしてのキャリア
 - 新しい技術のキャッチアップ
 
-定期的に更新していく予定ですので、よろしければRSSフィードの登録をお願いします！
+定期的に更新していく予定です！
