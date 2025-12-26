@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ringa_hyjの職務経歴・ポートフォリオ">
-    <title>CV | Ringa_hyj Tech Blog</title>
+    <meta name="description" content="Ringa_hyjのプロフィール・職務経歴">
+    <title>Profile | Ringa_hyj Tech Blog</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -20,8 +20,7 @@
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="cv.html" class="active">CV</a></li>
+                <li><a href="cv.html" class="active">Profile</a></li>
             </ul>
             <button class="nav-toggle" id="navToggle">
                 <i class="fas fa-bars"></i>
@@ -31,275 +30,71 @@
 
     <div class="page-header">
         <div class="container">
-            <h1><i class="fas fa-file-alt"></i> 職務経歴・ポートフォリオ</h1>
-            <p>キャリアサマリーとプロジェクト実績</p>
+            <h1><i class="fas fa-user"></i> Profile</h1>
         </div>
     </div>
 
-    <main class="container">
-        <div class="cv-content">
-            <section class="cv-section">
-                <h2><i class="fas fa-user-circle"></i> プロフィール概要</h2>
-                <div class="cv-profile">
-                    <ul>
-                        <li><strong>職種:</strong> データサイエンティスト / MLエンジニア</li>
-                        <li><strong>専門領域:</strong> 機械学習、データ分析、バックエンド開発</li>
-                        <li><strong>キャリアの方向性:</strong> データドリブンな意思決定を支援するシステム構築</li>
-                        <li><strong>GitHub:</strong> <a href="https://github.com/amazongodman/curriculum-vitae" target="_blank">amazongodman/curriculum-vitae</a></li>
+    <main class="container" style="max-width: 800px; margin: 3rem auto;">
+        <div class="simple-content">
+            <section style="margin-bottom: 3rem;">
+                <h2>👋 About Me</h2>
+                <p>
+                    エンジニアのRinga_hyjです。AI技術、機械学習、データサイエンスに関する情報を発信しています。
+                </p>
+            </section>
+
+            <section style="margin-bottom: 3rem;">
+                <h2>💼 職務経歴</h2>
+                <div style="margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-card); border-radius: 8px; border-left: 4px solid var(--primary-color);">
+                    <h3 style="margin-bottom: 0.5rem;">データサイエンティスト</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1rem;">2020年 - 現在</p>
+                    <ul style="line-height: 1.8;">
+                        <li>機械学習モデルの開発・運用</li>
+                        <li>データ分析基盤の設計・構築</li>
+                        <li>AI関連プロジェクトのリード</li>
+                    </ul>
+                </div>
+
+                <div style="padding: 1.5rem; background: var(--bg-card); border-radius: 8px; border-left: 4px solid var(--primary-color);">
+                    <h3 style="margin-bottom: 0.5rem;">ソフトウェアエンジニア</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1rem;">2018年 - 2020年</p>
+                    <ul style="line-height: 1.8;">
+                        <li>Webアプリケーション開発</li>
+                        <li>バックエンドシステムの設計・実装</li>
+                        <li>CI/CD環境の構築</li>
                     </ul>
                 </div>
             </section>
 
-            <section class="cv-section">
-                <h2><i class="fas fa-star"></i> スキルハイライト</h2>
-
-                <div class="skill-category">
-                    <h3>技術スキル</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <h4>プログラミング言語</h4>
-                            <p>Python, R, SQL, JavaScript, Java</p>
-                        </div>
-                        <div class="skill-item">
-                            <h4>機械学習/統計</h4>
-                            <p>scikit-learn, PyTorch, TensorFlow, 統計的検定, 実験計画, A/Bテスト</p>
-                        </div>
-                        <div class="skill-item">
-                            <h4>データ処理</h4>
-                            <p>pandas, NumPy, Spark, Hadoop, データパイプライン構築</p>
-                        </div>
-                        <div class="skill-item">
-                            <h4>可視化</h4>
-                            <p>Matplotlib, Seaborn, Plotly, Tableau, Power BI</p>
-                        </div>
-                        <div class="skill-item">
-                            <h4>MLOps</h4>
-                            <p>Docker, Git, MLflow, Kubeflow, CI/CD</p>
-                        </div>
-                        <div class="skill-item">
-                            <h4>クラウド</h4>
-                            <p>AWS (SageMaker, EC2, S3, Lambda), GCP (BigQuery, AI Platform)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>ビジネススキル</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <p>プロジェクトマネジメント、ステークホルダーコミュニケーション、要件定義・課題設定、データドリブンな意思決定支援</p>
-                        </div>
-                    </div>
+            <section style="margin-bottom: 3rem;">
+                <h2>🛠️ スキル</h2>
+                <div style="padding: 1.5rem; background: var(--bg-card); border-radius: 8px;">
+                    <p style="margin-bottom: 1rem;"><strong>プログラミング言語:</strong><br>Python, JavaScript, R, SQL</p>
+                    <p style="margin-bottom: 1rem;"><strong>AI/機械学習:</strong><br>TensorFlow, PyTorch, scikit-learn, Keras</p>
+                    <p style="margin-bottom: 1rem;"><strong>データ処理:</strong><br>pandas, NumPy, Spark</p>
+                    <p><strong>インフラ:</strong><br>Docker, AWS, GCP, Git</p>
                 </div>
             </section>
 
-            <section class="cv-section">
-                <h2><i class="fas fa-project-diagram"></i> 主要プロジェクト実績</h2>
-
-                <div class="project-card">
-                    <h3>レコメンデーションエンジンの構築</h3>
-                    <p class="project-period"><i class="fas fa-calendar"></i> 2023年4月 - 2024年3月</p>
-                    <div class="project-details">
-                        <div class="project-item">
-                            <h4>課題</h4>
-                            <p>ECサイトのコンバージョン率が低く、ユーザーエンゲージメントの向上が必要だった</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>アプローチ</h4>
-                            <p>協調フィルタリングとコンテンツベースフィルタリングのハイブリッドモデルを開発。A/Bテストによる効果検証を実施</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>成果</h4>
-                            <ul>
-                                <li>クリック率 25%向上</li>
-                                <li>コンバージョン率 15%向上</li>
-                                <li>ROI 300%達成</li>
-                            </ul>
-                        </div>
-                        <div class="project-item">
-                            <h4>使用技術</h4>
-                            <p>Python, scikit-learn, PyTorch, AWS SageMaker, Docker, MLflow</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>需要予測システムの開発</h3>
-                    <p class="project-period"><i class="fas fa-calendar"></i> 2022年6月 - 2023年3月</p>
-                    <div class="project-details">
-                        <div class="project-item">
-                            <h4>課題</h4>
-                            <p>在庫過剰・欠品による機会損失が発生していた</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>アプローチ</h4>
-                            <p>時系列分析とLSTMを用いた需要予測モデルを開発。複数の外部データを統合し予測精度を向上</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>成果</h4>
-                            <ul>
-                                <li>予測精度 MAPE 8%達成</li>
-                                <li>在庫コスト 20%削減</li>
-                                <li>欠品率 30%改善</li>
-                            </ul>
-                        </div>
-                        <div class="project-item">
-                            <h4>使用技術</h4>
-                            <p>Python, PyTorch, pandas, Spark, GCP BigQuery</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>異常検知システムの実装</h3>
-                    <p class="project-period"><i class="fas fa-calendar"></i> 2021年9月 - 2022年5月</p>
-                    <div class="project-details">
-                        <div class="project-item">
-                            <h4>課題</h4>
-                            <p>システム障害の早期発見が困難で、ダウンタイムが長期化していた</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>アプローチ</h4>
-                            <p>Isolation ForestとAutoencoderを組み合わせた異常検知モデルを開発</p>
-                        </div>
-                        <div class="project-item">
-                            <h4>成果</h4>
-                            <ul>
-                                <li>障害検出時間 70%短縮</li>
-                                <li>誤検知率 5%以下を達成</li>
-                                <li>ダウンタイム 50%削減</li>
-                            </ul>
-                        </div>
-                        <div class="project-item">
-                            <h4>使用技術</h4>
-                            <p>Python, scikit-learn, TensorFlow, Kafka, Elasticsearch</p>
-                        </div>
-                    </div>
-                </div>
+            <section style="margin-bottom: 3rem;">
+                <h2>🎓 資格・教育</h2>
+                <ul style="line-height: 2;">
+                    <li>〇〇大学 工学部 情報工学科 卒業</li>
+                    <li>AWS Certified Solutions Architect</li>
+                    <li>統計検定準1級</li>
+                </ul>
             </section>
 
-            <section class="cv-section">
-                <h2><i class="fas fa-building"></i> 職務経歴</h2>
-
-                <div class="work-experience">
-                    <div class="work-item">
-                        <h3>データサイエンティスト / MLエンジニア</h3>
-                        <p class="work-company">XXX株式会社</p>
-                        <p class="work-period">2020年4月 - 現在</p>
-                        <div class="work-description">
-                            <h4>主な責任と成果</h4>
-                            <ul>
-                                <li>機械学習モデルの設計・開発・運用（レコメンデーション、需要予測、異常検知）</li>
-                                <li>データパイプラインの構築と最適化（処理時間50%削減）</li>
-                                <li>MLOps環境の整備（デプロイサイクル80%短縮）</li>
-                                <li>チームメンバー5名のリーディング</li>
-                                <li>ステークホルダーへの分析結果プレゼンテーション</li>
-                            </ul>
-                            <p><strong>チーム:</strong> 5名 | <strong>プロジェクト規模:</strong> 年間予算5000万円</p>
-                            <p><strong>担当フェーズ:</strong> 要件定義、データ分析、モデル開発、本番運用まで全フェーズ</p>
-                        </div>
-                    </div>
-
-                    <div class="work-item">
-                        <h3>フルスタックエンジニア</h3>
-                        <p class="work-company">YYY株式会社</p>
-                        <p class="work-period">2018年4月 - 2020年3月</p>
-                        <div class="work-description">
-                            <h4>主な責任と成果</h4>
-                            <ul>
-                                <li>Webアプリケーションのフロントエンド・バックエンド開発</li>
-                                <li>RESTful APIの設計・実装</li>
-                                <li>CI/CDパイプラインの構築（Jenkins, GitLab CI）</li>
-                                <li>データベース設計・最適化</li>
-                                <li>コードレビューとチーム開発のリーディング</li>
-                            </ul>
-                            <p><strong>チーム:</strong> 3名 | <strong>プロジェクト規模:</strong> 中規模Webサービス</p>
-                        </div>
-                    </div>
-                </div>
+            <section>
+                <h2>📫 連絡先・活動</h2>
+                <ul style="list-style: none; padding: 0; line-height: 2;">
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/amazongodman" target="_blank">GitHub</a></li>
+                    <li><i class="fab fa-twitter"></i> <a href="https://twitter.com/Ringa_hyj" target="_blank">Twitter</a></li>
+                    <li><i class="fas fa-edit"></i> <a href="https://qiita.com/Ringa_hyj" target="_blank">Qiita</a></li>
+                    <li><i class="fab fa-kaggle"></i> <a href="https://www.kaggle.com/hiroshihiroshi" target="_blank">Kaggle</a></li>
+                    <li><i class="fas fa-presentation"></i> <a href="https://speakerdeck.com/ringa_hyj" target="_blank">SpeakerDeck</a></li>
+                </ul>
             </section>
-
-            <section class="cv-section">
-                <h2><i class="fas fa-certificate"></i> 資格・教育</h2>
-                <div class="education-items">
-                    <div class="education-item">
-                        <h4>資格</h4>
-                        <ul>
-                            <li>AWS Certified Solutions Architect - Associate</li>
-                            <li>Google Cloud Professional Data Engineer</li>
-                            <li>統計検定準1級</li>
-                            <li>応用情報技術者</li>
-                        </ul>
-                    </div>
-                    <div class="education-item">
-                        <h4>学歴</h4>
-                        <ul>
-                            <li>〇〇大学 工学部 情報工学科 卒業</li>
-                            <li>専攻: データマイニング、機械学習</li>
-                        </ul>
-                    </div>
-                    <div class="education-item">
-                        <h4>受講コース</h4>
-                        <ul>
-                            <li>Coursera - Machine Learning Specialization (Andrew Ng)</li>
-                            <li>Udacity - Deep Learning Nanodegree</li>
-                            <li>Fast.ai - Practical Deep Learning for Coders</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="cv-section">
-                <h2><i class="fas fa-rocket"></i> 個人プロジェクト・研究</h2>
-                <div class="personal-projects">
-                    <div class="personal-item">
-                        <h4><i class="fab fa-github"></i> GitHubリポジトリ</h4>
-                        <ul>
-                            <li><a href="https://github.com/amazongodman" target="_blank">github.com/amazongodman</a> - オープンソース貢献、個人プロジェクト</li>
-                        </ul>
-                    </div>
-                    <div class="personal-item">
-                        <h4><i class="fab fa-kaggle"></i> Kaggle</h4>
-                        <ul>
-                            <li>Competition Expert（最高ランク Silver Medal 2回獲得）</li>
-                            <li>プロフィール: <a href="https://www.kaggle.com/hiroshihiroshi" target="_blank">kaggle.com/hiroshihiroshi</a></li>
-                        </ul>
-                    </div>
-                    <div class="personal-item">
-                        <h4><i class="fas fa-blog"></i> 技術ブログ・記事</h4>
-                        <ul>
-                            <li>Qiita: <a href="https://qiita.com/Ringa_hyj" target="_blank">@Ringa_hyj</a> - 50記事以上投稿、総LGTM 1000+</li>
-                            <li>SpeakerDeck: <a href="https://speakerdeck.com/ringa_hyj" target="_blank">@ringa_hyj</a> - 技術カンファレンス登壇資料</li>
-                        </ul>
-                    </div>
-                    <div class="personal-item">
-                        <h4><i class="fas fa-microphone"></i> 登壇実績</h4>
-                        <ul>
-                            <li>PyCon JP 2023 - 「プロダクション環境での機械学習モデル運用」</li>
-                            <li>Machine Learning Casual Talks - 複数回登壇</li>
-                            <li>connpass: <a href="https://connpass.com/user/mf16069yoshimura/" target="_blank">勉強会・イベント参加履歴</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="cv-section">
-                <h2><i class="fas fa-envelope"></i> 連絡先</h2>
-                <div class="cv-contact">
-                    <ul>
-                        <li><strong>GitHub:</strong> <a href="https://github.com/amazongodman" target="_blank">github.com/amazongodman</a></li>
-                        <li><strong>Twitter:</strong> <a href="https://twitter.com/Ringa_hyj" target="_blank">@Ringa_hyj</a></li>
-                        <li><strong>Qiita:</strong> <a href="https://qiita.com/Ringa_hyj" target="_blank">@Ringa_hyj</a></li>
-                        <li><strong>Portfolio:</strong> <a href="https://amazongodman.github.io">amazongodman.github.io</a></li>
-                    </ul>
-                </div>
-            </section>
-
-            <div class="cv-download">
-                <a href="https://github.com/amazongodman/curriculum-vitae" target="_blank" class="btn btn-primary">
-                    <i class="fas fa-download"></i> 詳細な職務経歴書（GitHub）
-                </a>
-            </div>
         </div>
     </main>
 
@@ -308,15 +103,14 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Ringa_hyj Tech Blog</h3>
-                    <p>データサイエンスと機械学習に関する技術ブログ</p>
+                    <p>AI技術・機械学習に関する技術ブログ</p>
                 </div>
                 <div class="footer-section">
                     <h3>リンク</h3>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="blog.html">Blog</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="cv.html">Profile</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -339,7 +133,6 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024-2025 Ringa_hyj. All rights reserved.</p>
-                <p>本サイトのすべてのコンテンツは著作者に帰属します。</p>
             </div>
         </div>
     </footer>

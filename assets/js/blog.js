@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     initBlogPage();
 });
 
-function initBlogPage() {
+async function initBlogPage() {
+    await loadBlogData();
     loadBlogPosts();
     setupFilters();
     setupSearch();

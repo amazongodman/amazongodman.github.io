@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
     initNeuralNetwork();
     initTypingEffect();
-    initStats();
 
     // トップページの記事読み込み
     if (document.getElementById('featuredPosts')) {
@@ -176,53 +175,6 @@ function initTypingEffect() {
     type();
 }
 
-// ===================================
-// 統計カウンターアニメーション
-// ===================================
-function initStats() {
-    const statValues = document.querySelectorAll('.stat-value');
-    if (statValues.length === 0) return;
-
-    // JSONデータを読み込んで統計を更新
-    fetch('assets/data/posts.json')
-        .then(response => response.json())
-        .then(posts => {
-            const tags = new Set();
-            const categories = new Set();
-
-            posts.forEach(post => {
-                post.tags.forEach(tag => tags.add(tag));
-                post.categories.forEach(cat => categories.add(cat));
-            });
-
-            // 統計データを設定
-            const stats = [
-                posts.length,
-                tags.size,
-                categories.size
-            ];
-
-            statValues.forEach((stat, index) => {
-                animateValue(stat, 0, stats[index], 2000);
-            });
-        })
-        .catch(error => {
-            console.log('統計データの読み込みはビルド後に可能です');
-        });
-}
-
-function animateValue(element, start, end, duration) {
-    let startTimestamp = null;
-    const step = (timestamp) => {
-        if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        element.textContent = Math.floor(progress * (end - start) + start);
-        if (progress < 1) {
-            window.requestAnimationFrame(step);
-        }
-    };
-    window.requestAnimationFrame(step);
-}
 
 // ===================================
 // ブログ記事データ（JSONから読み込み）

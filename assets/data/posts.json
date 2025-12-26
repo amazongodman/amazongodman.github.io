@@ -1,0 +1,36 @@
+[
+  {
+    "id": "2024-12-26-ai-future",
+    "title": "AI技術の最前線：2025年に注目すべきトレンド",
+    "date": "2024-12-26T00:00:00.000Z",
+    "categories": [
+      "AI",
+      "機械学習"
+    ],
+    "tags": [
+      "LLM",
+      "生成AI",
+      "トレンド"
+    ],
+    "excerpt": "2025年のAI業界で注目すべき技術トレンドと、エンジニアが押さえておくべきポイントを解説します。",
+    "icon": "fa-brain",
+    "image": null
+  },
+  {
+    "id": "2024-12-16-python-data-analysis",
+    "title": "Pythonによるデータ分析入門",
+    "date": "2024-12-16T00:00:00.000Z",
+    "categories": [
+      "Python",
+      "データ分析"
+    ],
+    "tags": [
+      "pandas",
+      "numpy",
+      "matplotlib"
+    ],
+    "excerpt": "PythonとRを使用したデータ分析と機械学習について説明します。基本的なデータ分析のコード例から、実践的な応用まで幅広くカバーします。",
+    "icon": "fa-python",
+    "image": null
+  }
+]
