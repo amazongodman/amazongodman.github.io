@@ -98,9 +98,11 @@ yarn new:post
 .
 ├── index.html          # ホームページ
 ├── blog.html          # ブログ一覧
-├── about.html         # プロフィール
-├── cv.html            # 職務経歴
+├── cv.html            # プロフィール（Profile）
 ├── post.html          # 記事詳細ページ
+├── content/
+│   ├── posts/         # Markdown記事ファイル
+│   └── images/        # 記事用画像
 ├── assets/
 │   ├── css/
 │   │   ├── style.css  # メインスタイル
@@ -109,21 +111,37 @@ yarn new:post
 │   │   ├── main.js    # メインJavaScript
 │   │   ├── blog.js    # ブログページ機能
 │   │   └── post.js    # 記事詳細機能
-│   └── img/           # 画像ファイル
+│   ├── data/          # ビルド生成データ
+│   │   ├── posts.json
+│   │   └── posts-content.json
+│   └── img/           # サイト用画像ファイル
+├── scripts/
+│   ├── build.js       # ビルドスクリプト
+│   ├── dev-server.js  # 開発サーバー
+│   ├── preview.js     # プレビューサーバー
+│   └── new-post.js    # 新規記事作成
 └── README.md
 ```
 
-## 📝 新しい記事の書き方
+## 📝 記事の投稿方法
 
-### 方法1: コマンドで作成（推奨）
+### ステップ1: 新しい記事を作成
+
+#### 方法1: コマンドで作成（推奨）
 
 ```bash
 yarn new:post
 ```
 
-対話形式で記事情報を入力すると、`content/posts/` に Markdown ファイルが自動生成されます。
+対話形式で以下の情報を入力：
+- 記事のタイトル
+- カテゴリー（カンマ区切り）例: `AI,機械学習`
+- タグ（カンマ区切り）例: `Python,TensorFlow`
+- 記事の要約（150文字程度）
 
-### 方法2: 手動で作成
+`content/posts/YYYY-MM-DD-slug.md` が自動生成されます。
+
+#### 方法2: 手動で作成
 
 `content/posts/YYYY-MM-DD-slug.md` を作成：
 
@@ -152,7 +170,11 @@ import tensorflow as tf
 記事のまとめ...
 ```
 
-### 画像の追加
+### ステップ2: 記事を編集
+
+生成されたMarkdownファイルを任意のエディタで開いて編集します。
+
+### ステップ3: 画像の追加（オプション）
 
 1. `content/images/` に画像を配置
 2. 記事内で参照：
@@ -161,17 +183,32 @@ import tensorflow as tf
 ![画像の説明](/content/images/2024-12-26-example.png)
 ```
 
-### ビルドとプレビュー
+### ステップ4: ビルドとプレビュー
 
 ```bash
-# 記事をビルド
+# 記事をビルド（Markdown → JSON）
 yarn build
 
-# 開発サーバーでプレビュー
+# 開発サーバーでプレビュー（ホットリロード付き）
 yarn dev
 ```
 
-📚 **詳細なガイド**: [BLOG_GUIDE.md](BLOG_GUIDE.md) を参照
+ブラウザで http://localhost:8080 を開いて確認します。
+
+### ステップ5: 公開
+
+```bash
+# 変更をコミット
+git add .
+git commit -m "Add new post: 記事タイトル"
+
+# GitHubにプッシュ
+git push origin master
+```
+
+数分後、https://amazongodman.github.io に記事が公開されます。
+
+📚 **詳細なMarkdown記法**: [BLOG_GUIDE.md](BLOG_GUIDE.md) を参照
 
 ## カスタマイズ
 
@@ -190,8 +227,7 @@ yarn dev
 
 ### コンテンツの編集
 
-- プロフィール: `about.html`
-- 職務経歴: `cv.html`
+- プロフィール: `cv.html`
 - ソーシャルリンク: 各HTMLファイルのフッターセクション
 
 ## 🚢 デプロイ

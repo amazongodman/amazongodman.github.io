@@ -115,14 +115,45 @@ yarn new:post
 カテゴリー (カンマ区切り): AI,機械学習
 タグ (カンマ区切り): Python,TensorFlow
 記事の要約: AIの基礎について解説します
+アイコン (Font Awesome): fa-brain
 ```
 
 ### 6-2. 記事の編集
 
-生成されたファイルをエディタで開く：
+生成されたファイルをVS Codeやメモ帳などのエディタで開く：
 
 ```
 content/posts/2024-12-26-ai-gishu-rumen.md
+```
+
+Markdown形式で記事を執筆：
+
+```markdown
+---
+title: "AI技術入門"
+date: 2024-12-26
+categories: ["AI", "機械学習"]
+tags: ["Python", "TensorFlow"]
+excerpt: "AIの基礎について解説します"
+icon: "fa-brain"
+---
+
+## はじめに
+
+この記事ではAI技術の基礎について解説します。
+
+## AIとは
+
+AIは人工知能（Artificial Intelligence）の略で...
+
+\```python
+import tensorflow as tf
+print("Hello, AI!")
+\```
+
+## まとめ
+
+AI技術は...
 ```
 
 ### 6-3. 自動ビルド確認
@@ -132,10 +163,10 @@ content/posts/2024-12-26-ai-gishu-rumen.md
 ```
 📝 変更を検出: content/posts/2024-12-26-ai-gishu-rumen.md
 🔄 記事を再ビルド中...
-✅ ビルド完了: 1件の記事を処理しました
+✅ ビルド完了: 3件の記事を処理しました
 ```
 
-ブラウザをリロードして確認！
+ブラウザで http://localhost:8080 を開いて確認！
 
 ## 🖼️ 画像の追加
 

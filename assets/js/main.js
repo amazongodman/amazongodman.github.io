@@ -215,7 +215,7 @@ async function loadBlogData() {
 }
 
 // ===================================
-// トップページの最新記事表示
+// トップページの最新記事表示（全件を新しい順）
 // ===================================
 async function loadFeaturedPosts() {
     const container = document.getElementById('featuredPosts');
@@ -223,10 +223,8 @@ async function loadFeaturedPosts() {
 
     await loadBlogData();
 
-    // 最新3件の記事を表示
-    const featured = blogPosts.slice(0, 3);
-
-    container.innerHTML = featured.map(post => `
+    // 全記事を新しい順に表示（既にbuild.jsでソート済み）
+    container.innerHTML = blogPosts.map(post => `
         <article class="post-card">
             <div class="post-card-header">
                 <i class="fas ${post.icon} post-card-icon"></i>
