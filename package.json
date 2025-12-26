@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "node scripts/dev-server.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js && node scripts/build-cv.js",
+    "build:posts": "node scripts/build.js",
+    "build:cv": "node scripts/build-cv.js",
     "preview": "node scripts/preview.js",
     "new:post": "node scripts/new-post.js"
   },

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Ringa_hyj",
+    "title": "データサイエンティスト / ソフトウェアエンジニア",
+    "bio": "AI技術、機械学習、データサイエンスに関する情報を発信しています。",
+    "location": "日本",
+    "email": "",
+    "social": {
+      "github": "https://github.com/amazongodman",
+      "twitter": "https://twitter.com/Ringa_hyj",
+      "qiita": "https://qiita.com/Ringa_hyj",
+      "kaggle": "https://www.kaggle.com/hiroshihiroshi",
+      "speakerdeck": "https://speakerdeck.com/ringa_hyj"
+    }
+  },
+  "content": "<h2>職務経歴</h2>\n<h3>データサイエンティスト</h3>\n<p><strong>在籍期間</strong>: 2020年 - 現在</p>\n<h4>主要プロジェクト</h4>\n<p><strong>プロジェクト1: 需要予測モデルの開発</strong></p>\n<ul>\n<li><strong>概要</strong>: 機械学習を用いた需要予測システムの構築</li>\n<li><strong>成果</strong>: 予測精度を従来比30%改善、在庫コストを20%削減</li>\n<li><strong>技術</strong>: Python, scikit-learn, LightGBM, AWS SageMaker</li>\n</ul>\n<p><strong>プロジェクト2: 推薦システムの改善</strong></p>\n<ul>\n<li><strong>概要</strong>: ユーザー行動データを活用した推薦アルゴリズムの最適化</li>\n<li><strong>成果</strong>: クリック率15%向上、コンバージョン率10%改善</li>\n<li><strong>技術</strong>: PyTorch, TensorFlow, Spark, Redis</li>\n</ul>\n<p><strong>プロジェクト3: データ分析基盤の構築</strong></p>\n<ul>\n<li><strong>概要</strong>: 大規模データ処理パイプラインの設計・実装</li>\n<li><strong>成果</strong>: データ処理時間を1/5に短縮、分析の自動化を実現</li>\n<li><strong>技術</strong>: AWS (S3, EMR, Glue), Apache Airflow, Docker</li>\n</ul>\n<hr>\n<h3>ソフトウェアエンジニア</h3>\n<p><strong>在籍期間</strong>: 2018年 - 2020年</p>\n<h4>主要プロジェクト</h4>\n<p><strong>プロジェクト1: Webアプリケーション開発</strong></p>\n<ul>\n<li><strong>概要</strong>: BtoB向けSaaSプロダクトの開発</li>\n<li><strong>成果</strong>: 月間アクティブユーザー10,000人達成</li>\n<li><strong>技術</strong>: React, Node.js, PostgreSQL, AWS</li>\n</ul>\n<p><strong>プロジェクト2: バックエンドシステムの設計・実装</strong></p>\n<ul>\n<li><strong>概要</strong>: マイクロサービスアーキテクチャへの移行</li>\n<li><strong>成果</strong>: システムの可用性99.9%達成、デプロイ頻度3倍向上</li>\n<li><strong>技術</strong>: Go, Kubernetes, Docker, gRPC</li>\n</ul>\n<p><strong>プロジェクト3: CI/CD環境の構築</strong></p>\n<ul>\n<li><strong>概要</strong>: 開発・デプロイプロセスの自動化</li>\n<li><strong>成果</strong>: デプロイ時間を1時間から10分に短縮</li>\n<li><strong>技術</strong>: GitHub Actions, CircleCI, Terraform</li>\n</ul>\n<hr>\n<h2>スキル</h2>\n<h3>プログラミング言語</h3>\n<ul>\n<li><strong>Python</strong>: 5年（pandas, NumPy, scikit-learn, PyTorch, TensorFlow）</li>\n<li><strong>JavaScript/TypeScript</strong>: 4年（React, Node.js, Express）</li>\n<li><strong>R</strong>: 3年（統計解析、データ可視化）</li>\n<li><strong>SQL</strong>: 5年（PostgreSQL, MySQL, BigQuery）</li>\n<li><strong>Go</strong>: 2年（バックエンド開発）</li>\n</ul>\n<h3>AI/機械学習</h3>\n<ul>\n<li>教師あり学習、教師なし学習</li>\n<li>ディープラーニング（CNN, RNN, Transformer）</li>\n<li>自然言語処理（NLP）</li>\n<li>時系列分析</li>\n<li>推薦システム</li>\n<li>MLOps（モデル管理、デプロイ、監視）</li>\n</ul>\n<h3>データ処理・分析</h3>\n<ul>\n<li>pandas, NumPy, Spark</li>\n<li>データパイプライン設計</li>\n<li>ETL/ELT</li>\n<li>データ可視化（Matplotlib, Plotly, Tableau）</li>\n</ul>\n<h3>インフラ・DevOps</h3>\n<ul>\n<li><strong>クラウド</strong>: AWS（SageMaker, EC2, S3, Lambda, Glue）, GCP</li>\n<li><strong>コンテナ</strong>: Docker, Kubernetes</li>\n<li><strong>CI/CD</strong>: GitHub Actions, CircleCI, Jenkins</li>\n<li><strong>IaC</strong>: Terraform, CloudFormation</li>\n</ul>\n<hr>\n<h2>資格・認定</h2>\n<ul>\n<li>AWS Certified Solutions Architect - Associate</li>\n<li>AWS Certified Machine Learning - Specialty</li>\n<li>統計検定準1級</li>\n<li>応用情報技術者</li>\n<li>TOEIC 850点</li>\n</ul>\n<hr>\n<h2>学歴</h2>\n<h3>〇〇大学 工学部 情報工学科</h3>\n<p><strong>卒業</strong>: 2018年3月</p>\n<p><strong>専攻</strong>: 機械学習、データマイニング</p>\n<p><strong>卒業研究</strong>: 深層学習を用いた画像認識システムの研究</p>\n"
+}
