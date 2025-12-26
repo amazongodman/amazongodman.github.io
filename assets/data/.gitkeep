@@ -1,0 +1,8 @@
+# このファイルは空のフォルダをGitで追跡するためのものです
+# This file ensures this directory is tracked by Git even when empty
+#
+# このフォルダの用途: ビルドで生成されるJSONファイル
+# Purpose: Build-generated JSON files (posts.json, posts-content.json, cv.json)
+#
+# 注意: このフォルダの内容はビルド時に自動生成されます
+# Note: Contents are auto-generated during build process

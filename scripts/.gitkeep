@@ -1,0 +1,5 @@
+# このファイルは空のフォルダをGitで追跡するためのものです
+# This file ensures this directory is tracked by Git even when empty
+#
+# このフォルダの用途: ビルドスクリプト
+# Purpose: Build scripts (build.js, build-cv.js, dev-server.js, etc.)

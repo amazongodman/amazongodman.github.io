@@ -1,0 +1,8 @@
+# このファイルは空のフォルダをGitで追跡するためのものです
+# This file ensures this directory is tracked by Git even when empty
+#
+# このフォルダの用途: ブログ記事で使用する画像ファイル
+# Purpose: Image files for blog posts
+#
+# 使い方: 記事内で /content/images/ファイル名 で参照
+# Usage: Reference in posts as /content/images/filename

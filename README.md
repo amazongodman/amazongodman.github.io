@@ -164,11 +164,14 @@ yarn new:post
 - `scripts/` - ビルドスクリプト
 - `package.json`, `yarn.lock` - 依存関係定義
 - HTML/CSS/JSファイル
+- `.gitkeep` - 空フォルダの構造を保持
 
 **❌ GitHubから除外される（`.gitignore`）:**
 - `node_modules/` - 各環境で `yarn install` により再生成
 - ログファイル、一時ファイル
 - OS/IDE固有ファイル
+
+**📌 注意:** Gitは空のフォルダを追跡しません。`content/images/` などの重要なフォルダには `.gitkeep` ファイルを配置してフォルダ構造を保持しています。
 
 詳細は `.gitignore` を参照してください。
 
