@@ -1,0 +1,33 @@
+{
+  "name": "ringa-hyj-tech-blog",
+  "version": "2.0.0",
+  "description": "AI技術に関する情報発信ブログ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js",
+    "preview": "node scripts/preview.js",
+    "new:post": "node scripts/new-post.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazongodman/amazongodman.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "ai",
+    "machine-learning",
+    "data-science"
+  ],
+  "author": "Ringa_hyj",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "marked": "^11.1.1",
+    "highlight.js": "^11.9.0",
+    "front-matter": "^4.0.2"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "http-server": "^14.1.1"
+  }
+}

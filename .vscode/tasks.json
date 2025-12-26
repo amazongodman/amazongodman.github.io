@@ -2,25 +2,39 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Jekyll Server",
+      "label": "Start Dev Server",
       "type": "shell",
-      "command": "./tools/run.sh",
+      "command": "yarn dev",
       "group": {
         "kind": "build",
         "isDefault": true
       },
       "problemMatcher": [],
-      "detail": "Runs the Jekyll server with live reload."
+      "detail": "開発サーバーを起動（ホットリロード付き）",
+      "isBackground": true
     },
     {
-      "label": "Build Jekyll Site",
+      "label": "Build Posts",
       "type": "shell",
-      "command": "./tools/test.sh",
-      "group": {
-        "kind": "build"
-      },
+      "command": "yarn build",
+      "group": "build",
       "problemMatcher": [],
-      "detail": "Build the Jekyll site for production."
+      "detail": "Markdownファイルからブログ記事をビルド"
+    },
+    {
+      "label": "Create New Post",
+      "type": "shell",
+      "command": "yarn new:post",
+      "problemMatcher": [],
+      "detail": "新しいブログ記事を対話形式で作成"
+    },
+    {
+      "label": "Preview Site",
+      "type": "shell",
+      "command": "yarn preview",
+      "problemMatcher": [],
+      "detail": "ビルド済みサイトをプレビュー",
+      "isBackground": true
     }
   ]
 }

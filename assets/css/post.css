@@ -1,0 +1,150 @@
+/* ===================================
+   ブログ記事ページのスタイル
+   =================================== */
+.post-content {
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: var(--bg-card);
+    padding: 3rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.post-header {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.post-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    flex-wrap: wrap;
+}
+
+.post-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-meta-item i {
+    color: var(--primary-color);
+}
+
+.post-body {
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.post-body h2 {
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: var(--text-color);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.post-body h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+    color: var(--text-color);
+}
+
+.post-body p {
+    margin-bottom: 1rem;
+}
+
+.post-body ul,
+.post-body ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.post-body li {
+    margin-bottom: 0.5rem;
+}
+
+.post-body pre {
+    background-color: #1a1f36;
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid var(--border-color);
+}
+
+.post-body code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.post-body p code {
+    background-color: var(--bg-secondary);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    color: var(--primary-light);
+}
+
+.post-body a {
+    color: var(--primary-light);
+    text-decoration: underline;
+}
+
+.post-body a:hover {
+    color: var(--primary-color);
+}
+
+.post-body blockquote {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.post-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-color);
+}
+
+.post-navigation {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .post-content {
+        padding: 1.5rem;
+    }
+
+    .post-title {
+        font-size: 1.75rem;
+    }
+
+    .post-body h2 {
+        font-size: 1.5rem;
+    }
+
+    .post-body h3 {
+        font-size: 1.25rem;
+    }
+
+    .post-body pre {
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+}

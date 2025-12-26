@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="技術ブログ記事一覧 - Python、データサイエンス、機械学習の記事">
+    <title>Blog | Ringa_hyj Tech Blog</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <i class="fas fa-terminal"></i>
+                    <span>Ringa_hyj</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-blog"></i> ブログ記事一覧</h1>
+            <p>技術に関する知見や学びを共有します</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="blog-layout">
+            <div class="blog-main">
+                <div class="filter-bar">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="記事を検索...">
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">
+                            すべて
+                        </button>
+                        <button class="filter-btn" data-category="Python">
+                            Python
+                        </button>
+                        <button class="filter-btn" data-category="データ分析">
+                            データ分析
+                        </button>
+                        <button class="filter-btn" data-category="機械学習">
+                            機械学習
+                        </button>
+                    </div>
+                </div>
+
+                <div class="posts-list" id="postsList">
+                    <!-- 記事は動的に読み込まれます -->
+                </div>
+
+                <div id="noResults" class="no-results" style="display: none;">
+                    <i class="fas fa-search"></i>
+                    <p>該当する記事が見つかりませんでした</p>
+                </div>
+            </div>
+
+            <aside class="blog-sidebar">
+                <div class="sidebar-card">
+                    <h3><i class="fas fa-tags"></i> タグ</h3>
+                    <div class="tag-cloud" id="tagCloud">
+                        <!-- タグは動的に読み込まれます -->
+                    </div>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3><i class="fas fa-chart-bar"></i> カテゴリー</h3>
+                    <ul class="category-list" id="categoryList">
+                        <!-- カテゴリーは動的に読み込まれます -->
+                    </ul>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3><i class="fas fa-archive"></i> アーカイブ</h3>
+                    <ul class="archive-list" id="archiveList">
+                        <!-- アーカイブは動的に読み込まれます -->
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ringa_hyj Tech Blog</h3>
+                    <p>データサイエンスと機械学習に関する技術ブログ</p>
+                </div>
+                <div class="footer-section">
+                    <h3>リンク</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>ソーシャル</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/amazongodman" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/Ringa_hyj" target="_blank" rel="noopener">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://qiita.com/Ringa_hyj" target="_blank" rel="noopener">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <a href="https://www.kaggle.com/hiroshihiroshi" target="_blank" rel="noopener">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024-2025 Ringa_hyj. All rights reserved.</p>
+                <p>本サイトのすべてのコンテンツは著作者に帰属します。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>

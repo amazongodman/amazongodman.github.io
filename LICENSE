@@ -1,21 +1,40 @@
-MIT License
+Copyright (c) 2024-2025 Ringa_hyj
 
-Copyright (c) 2021 Cotes Chung
+All Rights Reserved
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本リポジトリに含まれるすべてのコンテンツ（ソースコード、ドキュメント、画像、
+デザイン、記事など）の著作権は Ringa_hyj に帰属します。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+以下の行為は、著作権者の明示的な許可なしに禁止されています：
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. 本コンテンツの複製、配布、公開、送信
+2. 本コンテンツの改変、翻案、二次的著作物の作成
+3. 本コンテンツの商業的利用
+4. 本コンテンツの全体または一部の再利用
+
+個人的な学習目的での閲覧は許可されますが、それ以外の利用については
+事前に著作権者の許可を得る必要があります。
+
+本著作物は、いかなる保証もなく「現状のまま」提供されます。
+著作権者は、本著作物の使用によって生じたいかなる損害についても
+責任を負いません。
+
+---
+
+This repository and all its contents (source code, documentation, images,
+designs, articles, etc.) are the property of Ringa_hyj.
+
+The following actions are prohibited without explicit permission from the
+copyright holder:
+
+1. Reproduction, distribution, publication, or transmission of this content
+2. Modification, adaptation, or creation of derivative works
+3. Commercial use of this content
+4. Reuse of all or part of this content
+
+Viewing for personal learning purposes is permitted, but any other use
+requires prior permission from the copyright holder.
+
+This work is provided "as is" without warranty of any kind.
+The copyright holder shall not be liable for any damages arising from
+the use of this work.

@@ -1,4 +1,173 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ringa_hyjのテクニカルブログ - データサイエンス、Python、機械学習についての技術記事を発信">
+    <title>Ringa_hyj Tech Blog</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <i class="fas fa-terminal"></i>
+                    <span>Ringa_hyj</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <canvas id="neural-network" class="neural-bg"></canvas>
+        <div class="hero-content">
+            <div class="ai-badge">
+                <i class="fas fa-robot"></i>
+                <span>AI × Technology</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor">|</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="subtitle-item"><i class="fas fa-brain"></i> AI・機械学習</span>
+                <span class="subtitle-item"><i class="fas fa-code"></i> ソフトウェア開発</span>
+                <span class="subtitle-item"><i class="fas fa-chart-line"></i> データサイエンス</span>
+            </p>
+            <div class="hero-buttons">
+                <a href="blog.html" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> 記事を読む
+                </a>
+                <a href="about.html" class="btn btn-outline">
+                    <i class="fas fa-user-astronaut"></i> About Me
+                </a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-newspaper"></i></div>
+                <div class="stat-value" data-target="0">0</div>
+                <div class="stat-label">記事</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-tags"></i></div>
+                <div class="stat-value" data-target="0">0</div>
+                <div class="stat-label">タグ</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-folder"></i></div>
+                <div class="stat-value" data-target="0">0</div>
+                <div class="stat-label">カテゴリー</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-fire"></i> 最新記事
+            </h2>
+            <div class="posts-grid" id="featuredPosts">
+                <!-- 動的に記事を読み込み -->
+            </div>
+            <div class="text-center">
+                <a href="blog.html" class="btn btn-secondary">
+                    すべての記事を見る <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-code"></i> 技術スタック
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>pandas, NumPy, scikit-learn, PyTorch</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>データ分析</h3>
+                    <p>統計分析, データ可視化, 機械学習</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>機械学習</h3>
+                    <p>教師あり学習, ディープラーニング, MLOps</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>クラウド</h3>
+                    <p>AWS SageMaker, GCP, Docker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ringa_hyj Tech Blog</h3>
+                    <p>データサイエンスと機械学習に関する技術ブログ</p>
+                </div>
+                <div class="footer-section">
+                    <h3>リンク</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>ソーシャル</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/amazongodman" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/Ringa_hyj" target="_blank" rel="noopener">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://qiita.com/Ringa_hyj" target="_blank" rel="noopener">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <a href="https://www.kaggle.com/hiroshihiroshi" target="_blank" rel="noopener">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024-2025 Ringa_hyj. All rights reserved.</p>
+                <p>本サイトのすべてのコンテンツは著作者に帰属します。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,27 +1,39 @@
-# Bundler cache
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs (コミットに含める)
+# assets/data/ は GitHubPages で必要なのでコミット
+
+# 旧 Jekyll 関連（不要）
 .bundle
 vendor
 Gemfile.lock
-
-# Jekyll cache
 .jekyll-cache
 .jekyll-metadata
 _site
-
-# RubyGems
 *.gem
+_sass/vendors
 
-# NPM dependencies
-node_modules
-package-lock.json
-
-# IDE configurations
-.idea
+# IDE
+.idea/
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/tasks.json
+*.swp
+*.swo
+*~
 
-# Misc
-_sass/vendors
-assets/js/dist
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 一時ファイル
+*.tmp
+*.log
+.cache/
